@@ -38,5 +38,10 @@ You are an expert summarizer and analyzer who can help me.
 
     SUMMARY: 
 </message>
+{% for item in history %}
+    <message role="{{item.role}}">
+        {{item.content}}
+    </message>
+    {% endfor %}
 
 ```
