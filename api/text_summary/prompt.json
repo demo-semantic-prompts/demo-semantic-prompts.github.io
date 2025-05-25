@@ -1,0 +1,24 @@
+{
+    "name" : "text_summary",
+    "author": "hardkothari",
+    "available_versions":
+     [
+        {
+            "version":"1.0.0",
+             "entities":[
+                {
+                    "name" : "word_count",
+                    "type" : "Integer"
+                },
+                {
+                    "name" : "target_audience",
+                    "type" : "Integer"
+                },
+                {
+                    "name" : "text",
+                    "type" : "string"
+                }
+             ]
+        }
+    ]
+}
